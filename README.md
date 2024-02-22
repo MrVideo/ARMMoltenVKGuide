@@ -20,11 +20,15 @@ This guide assumes that you will use the command line and a simple text editor (
     export DYLD_LIBRARY_PATH=/Users/<your username>/VulkanSDK/1.3.275.0/macOS/lib
     ```
 5. Download the script `vkcompile.sh` provided with this GitHub repository and save it somewhere you can remember
-6. Alias that script in your `.zshrc` by adding the following line:
+6. Add execution permissions to the script by running this command:
+    ```bash
+    chmod +x vkcompile.sh
+    ```
+7. Alias that script in your `.zshrc` by adding the following line:
     ```bash
     alias gvk="/path/to/vkcompile.sh"
     ```
-7. Update your terminal configuration by running:
+8. Update your terminal configuration by running:
     ```bash
     source ~/.zshrc
     ```
