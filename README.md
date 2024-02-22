@@ -1,7 +1,5 @@
 # M1 Macs MoltenVK install
 
----
-
 This guide is meant for Computer Graphics students that own ARM-based Macs.
 
 This guide assumes that you will use the command line and a simple text editor (like nano, Neovim, VS Code...), not a fully-fledged IDE.
